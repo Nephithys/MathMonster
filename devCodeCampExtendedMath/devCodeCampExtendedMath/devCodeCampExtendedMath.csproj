@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EuclMath.cs" />
+    <Compile Include="HappyNum.cs" />
     <Compile Include="math.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

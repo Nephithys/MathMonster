@@ -49,6 +49,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\devCodeCampExtendedMath\devCodeCampExtendedMath.csproj">
+      <Project>{1052d196-71f7-43ba-bf8c-bdbe5fa8e93b}</Project>
+      <Name>devCodeCampExtendedMath</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

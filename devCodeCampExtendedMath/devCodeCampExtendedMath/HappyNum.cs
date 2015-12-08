@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace devCodeCampExtendedMath
 {
-    public static class Maths
+    class HappyNum
     {
         public static bool ishappy(int n)
         {
@@ -31,22 +30,6 @@ namespace devCodeCampExtendedMath
             }
             return true;
         }
-        public static void HappyNumbers(int numToChange = 34)
-        {
-            int num = 1;
-            List<int> happynums = new List<int>();
 
-            while (happynums.Count < numToChange)
-            {
-                if (ishappy(num))
-                {
-                    happynums.Add(num);
-                }
-                num++;
-            }
-            Console.WriteLine("First 34 happy numbers : " + string.Join(",", happynums));
-            
-        }
-       
     }
 }
