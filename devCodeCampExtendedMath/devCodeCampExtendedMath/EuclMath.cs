@@ -8,7 +8,7 @@ namespace devCodeCampExtendedMath
 {
     class EuclMath
     {
-        public int GCD(int a, int b)
+        public int GCD(int a = 15, int b = 30)
         {
             while (a != 0 && b != 0)
             {

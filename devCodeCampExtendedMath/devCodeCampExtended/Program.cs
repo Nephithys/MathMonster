@@ -13,7 +13,10 @@ namespace RunAllMeth
         static void Main(string[] args)
         {
             Maths.HappyNumbers();
+            Maths.GCD(210,31);
+            Console.WriteLine();
 
+            
         }
     }
     

@@ -47,6 +47,21 @@ namespace devCodeCampExtendedMath
             Console.WriteLine("First 34 happy numbers : " + string.Join(",", happynums));
             
         }
-       
+        public static void GCD(int a = 1, int b = 1)
+        {
+            while (a != 0 && b != 0)
+            {
+                if (a > b)
+                    a %= b;
+                else
+                    b %= a;
+            }
+
+            if (a == 0)
+                Console.WriteLine(b);
+            else
+                Console.WriteLine(a);
+
+        }
     }
 }
